@@ -1,0 +1,90 @@
+.quotes {
+  max-width: 60rem;
+  width: 100%;
+  margin-top: 8rem;
+  background: #a8cbffad;
+  border-radius: 1.2rem;
+  padding: 0.2rem 2rem;
+  box-shadow: 0rem 0rem 1.2rem 0.1rem #808080a8;
+  z-index: 999;
+  transition: ease-in-out 0.2s;
+}
+.emptyQuotes {
+  margin-top: 20rem;
+  font-size: 2.2rem;
+  color: #fdfcfc;
+  transform: rotateZ(60deg) translateY(160%);
+}
+@media (min-width: 312px) and (max-width: 869px) {
+  .emptyQuotes {
+    margin-top: 20rem;
+    font-size: 2.2rem;
+    color: #fdfcfc;
+    z-index: 999;
+    transform: none;
+  }
+}
+@media (min-width: 870px) and (max-width: 1070px) {
+  .emptyQuotes {
+    margin-top: 20rem;
+    font-size: 2.2rem;
+    color: #fdfcfc;
+    transform: rotateZ(60deg) translateY(10%);
+    z-index: 999;
+  }
+}
+
+@media (min-width: 312px) and (max-width: 450px) {
+  .quotes {
+    max-width: 25rem;
+    width: 100%;
+    margin-top: 8rem;
+    background: #7d7e7ead;
+    border-radius: 1.2rem;
+    padding: 0.2rem 2rem;
+    box-shadow: 0rem 0rem 1.2rem 0.1rem #d1d1d1c4;
+    z-index: 999;
+    transition: ease-in-out 0.2s;
+  }
+}
+
+@media (min-width: 451px) and (max-width: 650px) {
+  .quotes {
+    max-width: 38rem;
+    width: 100%;
+    margin-top: 8rem;
+    background: #959595bf;
+    border-radius: 1.2rem;
+    padding: 0.2rem 2rem;
+    box-shadow: 0rem 0rem 1.2rem 0.1rem #808080a8;
+    z-index: 999;
+    transition: ease-in-out 0.2s;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 700px) {
+  .quotes {
+    max-width: 50rem;
+    width: 100%;
+    margin-top: 8rem;
+    background: #929cada8;
+    border-radius: 1.2rem;
+    padding: 0.2rem 2rem;
+    box-shadow: 0rem 0rem 1.2rem 0.1rem #808080a8;
+    z-index: 999;
+    transition: ease-in-out 0.2s;
+  }
+}
+@media (min-width: 701px) and (max-width: 850px) {
+  .quotes {
+    max-width: 50rem;
+    width: 100%;
+    margin-top: 8rem;
+    background: #8e9fbb6b;
+    border-radius: 1.2rem;
+    padding: 0.2rem 2rem;
+    box-shadow: 0rem 0rem 1.2rem 0.1rem #808080a8;
+    z-index: 999;
+    transition: ease-in-out 0.2s;
+  }
+}

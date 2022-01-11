@@ -1,0 +1,180 @@
+.AddQuotes {
+  max-width: 50rem;
+  width: 100%;
+  background: #a8cbffad;
+  margin-top: 5rem;
+  padding: 4rem 1rem;
+  border-radius: 1.2rem;
+  box-shadow: 0rem 0rem 1.2rem 0.1rem #808080a8;
+  z-index: 999;
+  transition: ease-in-out 0.2s;
+}
+
+.AddQuotes form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  cursor: url('../pic/dove.png'), pointer;
+}
+
+.AddQuotes input {
+  max-width: 45rem;
+  width: 100%;
+  height: 4rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  padding: 0.2rem 0.2rem;
+  text-align: start;
+  transition: ease-in-out 0.2s;
+}
+
+.AddQuotes textarea {
+  min-height: 10rem;
+  font-size: 2rem;
+  border: unset;
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  outline: unset;
+  max-width: 45rem;
+  width: 100%;
+  padding: 0.2rem 0.2rem;
+  text-align: start;
+  transition: ease-in-out 0.2s;
+}
+
+.AddQuotes button {
+  font-size: 2rem;
+  margin-left: calc(100% / 1.35);
+  outline: none;
+  border: none;
+  font-weight: 600;
+  padding: 1rem 1rem;
+  color: #8d8d8d;
+  border-radius: 1rem;
+  background: #b7b7b7;
+  box-shadow: 0.1rem 0.1rem 0.9rem 0.1rem white;
+  margin-top: 0.5rem;
+  cursor: url('../pic/dove.png'), pointer;
+}
+.AddQuotes p {
+  font-size: 1.9rem;
+}
+.AddQuotes button:hover {
+  background: #d9d9d9;
+  color: white;
+  transition: ease-in 0.2s;
+  animation: shine 0.4s ease-in-out;
+}
+@keyframes shine {
+  0% {
+    box-shadow: 0.1rem 0.1rem 0.9rem 0.9rem white;
+  }
+  15% {
+    box-shadow: 0.1rem 0.1rem 0.9rem 0.777rem white;
+  }
+  30% {
+    box-shadow: 0.1rem 0.1rem 0.9rem 0.665rem white;
+  }
+  45% {
+    box-shadow: 0.1rem 0.1rem 0.9rem 0.522rem white;
+  }
+  60% {
+    box-shadow: 0.1rem 0.1rem 0.9rem 0.4222rem white;
+  }
+  75% {
+    box-shadow: 0.1rem 0.1rem 0.9rem 0.32222rem white;
+  }
+  90% {
+    box-shadow: 0.1rem 0.1rem 0.9rem 0.2111rem white;
+  }
+  100% {
+    box-shadow: 0.1rem 0.1rem 0.9rem 0.1rem white;
+  }
+}
+
+@media (min-width: 312px) and (max-width: 450px) {
+  .AddQuotes {
+    max-width: 29rem;
+    width: 100vw;
+    background: #7d7e7ead;
+    margin-top: 5rem;
+    padding: 4rem 1rem;
+    border-radius: 1.2rem;
+    box-shadow: 0rem 0rem 1.2rem 0.1rem #808080a8;
+    z-index: 999;
+    transition: ease-in-out 0.2s;
+  }
+  .AddQuotes button {
+    font-size: 2rem;
+    margin-left: calc(100% / 1.35);
+    outline: none;
+    border: none;
+    font-weight: 600;
+    padding: 1rem 1rem;
+    color: #8d8d8d;
+    margin-right: 0.8rem;
+    border-radius: 1rem;
+    background: #b7b7b7;
+    box-shadow: 0.1rem 0.1rem 0.9rem 0.1rem white;
+    margin-top: 0.5rem;
+    cursor: url('../pic/dove.png'), pointer;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 550px) {
+  .AddQuotes {
+    max-width: 38rem;
+    width: 100vw;
+    background: #959595bf;
+    margin-top: 5rem;
+    padding: 4rem 1rem;
+    border-radius: 1.2rem;
+    box-shadow: 0rem 0rem 1.2rem 0.1rem #808080a8;
+    z-index: 999;
+    transition: ease-in-out 0.2s;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 650px) {
+  .AddQuotes {
+    max-width: 38rem;
+    width: 100vw;
+    background: #cfcfcf9e;
+    margin-top: 5rem;
+    padding: 4rem 1rem;
+    border-radius: 1.2rem;
+    box-shadow: 0rem 0rem 1.2rem 0.1rem #808080a8;
+    z-index: 999;
+    transition: ease-in-out 0.2s;
+  }
+}
+
+@media (min-width: 651px) and (max-width: 700px) {
+  .AddQuotes {
+    max-width: 45rem;
+    width: 100vw;
+    background: #929cada8;
+    margin-top: 5rem;
+    padding: 4rem 1rem;
+    border-radius: 1.2rem;
+    box-shadow: 0rem 0rem 1.2rem 0.1rem #808080a8;
+    z-index: 999;
+    transition: ease-in-out 0.2s;
+  }
+}
+@media (min-width: 701px) and (max-width: 850px) {
+  .AddQuotes {
+    max-width: 45rem;
+    width: 100vw;
+    background: #8e9fbb6b;
+    margin-top: 5rem;
+    padding: 4rem 1rem;
+    border-radius: 1.2rem;
+    box-shadow: 0rem 0rem 1.2rem 0.1rem #808080a8;
+    z-index: 999;
+    transition: ease-in-out 0.2s;
+  }
+}

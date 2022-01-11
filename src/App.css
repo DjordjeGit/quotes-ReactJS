@@ -1,0 +1,99 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  background: #00000000;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+@media (min-width: 312px) and (max-width: 450px) {
+  .overlay {
+    width: 100vw;
+    height: 100vh;
+    background: #202020d6;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+@media (min-width: 451px) and (max-width: 550px) {
+  .overlay {
+    width: 100vw;
+    height: 100vh;
+    background: #282828cc;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+@media (min-width: 551px) and (max-width: 650px) {
+  .overlay {
+    width: 100vw;
+    height: 100vh;
+    background: #505050cc;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+@media (min-width: 651px) and (max-width: 700px) {
+  .overlay {
+    width: 100vw;
+    height: 100vh;
+    background: #727272c7;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 850px) {
+  .overlay {
+    width: 100vw;
+    height: 100vh;
+    background: #8b8b8b96;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+@media (min-width: 850px) and (max-width: 1000px) {
+  .overlay {
+    width: 100vw;
+    height: 100vh;
+    background: #8b8b8b61;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1200px) {
+  .overlay {
+    width: 100vw;
+    height: 100vh;
+    background: #8b8b8b21;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
+@media (min-width: 1201px) and (max-width: 1320px) {
+  .overlay {
+    width: 100vw;
+    height: 100vh;
+    background: #8b8b8b00;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}

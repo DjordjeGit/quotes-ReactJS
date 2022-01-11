@@ -1,0 +1,190 @@
+.quotesItem {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  margin: 1rem 2rem 2rem auto;
+  border-bottom: 2px solid #d7959594;
+  padding: 1rem 0rem;
+  cursor: url('../pic/dove.png'), pointer;
+}
+.author {
+  display: flex;
+}
+.author p {
+  font-size: 1.4rem;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin-left: 1rem;
+  color: gray;
+}
+.author h1 {
+  display: flex;
+  font-size: 1.7rem;
+  flex-direction: column;
+  justify-content: end;
+  margin-left: 1rem;
+}
+.quotesItem a {
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 1.4rem;
+  border: none;
+  outline: unset;
+  background: #b7b7b7;
+  color: #8d8d8d;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  box-shadow: 0.1rem 0.1rem 0.9rem 0.1rem white;
+  cursor: url('../pic/dove.png'), pointer;
+}
+.quotesItem p {
+  font-size: 1.7rem;
+}
+.quotesItem a:hover {
+  animation: shine 0.4s ease-in-out;
+  background: #d9d9d9;
+  color: white;
+  transition: ease-in 0.2s;
+}
+
+@keyframes shine {
+  0% {
+    box-shadow: 0.1rem 0.1rem 0.9rem 0.9rem white;
+  }
+  15% {
+    box-shadow: 0.1rem 0.1rem 0.9rem 0.777rem white;
+  }
+  30% {
+    box-shadow: 0.1rem 0.1rem 0.9rem 0.665rem white;
+  }
+  45% {
+    box-shadow: 0.1rem 0.1rem 0.9rem 0.522rem white;
+  }
+  60% {
+    box-shadow: 0.1rem 0.1rem 0.9rem 0.4222rem white;
+  }
+  75% {
+    box-shadow: 0.1rem 0.1rem 0.9rem 0.32222rem white;
+  }
+  90% {
+    box-shadow: 0.1rem 0.1rem 0.9rem 0.2111rem white;
+  }
+  100% {
+    box-shadow: 0.1rem 0.1rem 0.9rem 0.1rem white;
+  }
+}
+@media (min-width: 312px) and (max-width: 450px) {
+  .quotesItem {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin: 1rem 2rem 2rem auto;
+    border-bottom: 2px solid #dfdfdfad;
+    padding: 1rem 0rem;
+    transition: ease-in-out 0.2s;
+  }
+  .author h1 {
+    display: flex;
+    font-size: 1rem;
+    flex-direction: column;
+    justify-content: end;
+    margin-left: 1rem;
+  }
+  .quotesItem p {
+    font-size: 1rem;
+    color: #fffbfbb9;
+  }
+}
+@media (min-width: 451px) and (max-width: 550px) {
+  .quotesItem {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin: 1rem 2rem 2rem auto;
+    border-bottom: 2px solid #dfdfdfad;
+    padding: 1rem 0rem;
+    transition: ease-in-out 0.2s;
+  }
+  .author h1 {
+    display: flex;
+    font-size: 1.3rem;
+    flex-direction: column;
+    justify-content: end;
+    margin-left: 1rem;
+  }
+  .author p {
+    font-size: 1.4rem;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-left: 1rem;
+    color: #dfdfdfad;
+  }
+}
+@media (min-width: 551px) and (max-width: 650px) {
+  .quotesItem {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin: 1rem 2rem 2rem auto;
+    border-bottom: 2px solid #dfdfdfad;
+    padding: 1rem 0rem;
+    transition: ease-in-out 0.2s;
+  }
+  .author h1 {
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: column;
+    justify-content: end;
+    margin-left: 1rem;
+  }
+  .author p {
+    font-size: 1.4rem;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-left: 1rem;
+    color: #bdbdbd;
+  }
+}
+@media (min-width: 651px) and (max-width: 700px) {
+  .quotesItem {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin: 1rem 2rem 2rem auto;
+    border-bottom: 2px solid #dfdfdfad;
+    padding: 1rem 0rem;
+    transition: ease-in-out 0.2s;
+  }
+  .author h1 {
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: column;
+    justify-content: end;
+    margin-left: 1rem;
+  }
+  .author p {
+    font-size: 1.4rem;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-left: 1rem;
+    color: #bdbdbd;
+  }
+}

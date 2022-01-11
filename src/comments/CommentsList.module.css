@@ -1,0 +1,102 @@
+.commentList {
+  justify-content: center;
+  grid-column-gap: 2rem;
+  display: flex;
+  max-width: 60rem;
+  max-height: 20rem;
+  width: 100%;
+  background: #c4dcff54;
+  margin-top: 2rem;
+  border-radius: 1.2rem;
+  overflow: overlay;
+  box-shadow: 0rem 0rem 1.2rem 0.1rem #808080a8;
+  transition: ease-in-out 0.2s;
+}
+
+.commentList ul {
+  width: 100%;
+  max-width: 50rem;
+  list-style: none;
+  padding: 1rem 1rem;
+  transition: ease-in-out 0.2s;
+}
+@media (min-width: 312px) and (max-width: 450px) {
+  .commentList {
+    justify-content: center;
+    grid-column-gap: 2rem;
+    display: flex;
+    max-width: 60rem;
+    max-height: 20rem;
+    width: 100%;
+    background: #646464d1;
+    margin-top: 2rem;
+    border-radius: 1.2rem;
+    overflow: overlay;
+    box-shadow: 0rem 0rem 1.2rem 0.1rem #808080a8;
+    transition: ease-in-out 0.2s;
+  }
+}
+@media (min-width: 451px) and (max-width: 550px) {
+  .commentList {
+    justify-content: center;
+    grid-column-gap: 2rem;
+    display: flex;
+    max-width: 60rem;
+    max-height: 20rem;
+    width: 100%;
+    background: #959595bf;
+    margin-top: 2rem;
+    border-radius: 1.2rem;
+    overflow: overlay;
+    box-shadow: 0rem 0rem 1.2rem 0.1rem #808080a8;
+    transition: ease-in-out 0.2s;
+  }
+}
+@media (min-width: 551px) and (max-width: 650px) {
+  .commentList {
+    justify-content: center;
+    grid-column-gap: 2rem;
+    display: flex;
+    max-width: 60rem;
+    max-height: 20rem;
+    width: 100%;
+    background: #cfcfcf9e;
+    margin-top: 2rem;
+    border-radius: 1.2rem;
+    overflow: overlay;
+    box-shadow: 0rem 0rem 1.2rem 0.1rem #808080a8;
+    transition: ease-in-out 0.2s;
+  }
+}
+@media (min-width: 651px) and (max-width: 700px) {
+  .commentList {
+    justify-content: center;
+    grid-column-gap: 2rem;
+    display: flex;
+    max-width: 60rem;
+    max-height: 20rem;
+    width: 100%;
+    background: #929cada8;
+    margin-top: 2rem;
+    border-radius: 1.2rem;
+    overflow: overlay;
+    box-shadow: 0rem 0rem 1.2rem 0.1rem #808080a8;
+    transition: ease-in-out 0.2s;
+  }
+}
+@media (min-width: 701px) and (max-width: 850px) {
+  .commentList {
+    justify-content: center;
+    grid-column-gap: 2rem;
+    display: flex;
+    max-width: 60rem;
+    max-height: 20rem;
+    width: 100%;
+    background: #8e9fbb6b;
+    margin-top: 2rem;
+    border-radius: 1.2rem;
+    overflow: overlay;
+    box-shadow: 0rem 0rem 1.2rem 0.1rem #808080a8;
+    transition: ease-in-out 0.2s;
+  }
+}

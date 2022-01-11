@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 15rem;
+}
+
+.notification {
+  z-index: 999;
+  max-width: 30rem;
+  width: 100%;
+  background: #bbbbbd9e;
+  position: absolute;
+  min-height: 10rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  overflow-wrap: anywhere;
+  color: #d300009e;
+  box-shadow: 0.1rem 0.1rem 0.9rem 0.1rem white;
+}

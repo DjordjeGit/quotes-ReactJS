@@ -1,0 +1,73 @@
+.centered {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  z-index: 9999999999;
+}
+
+.LoadingSpinner {
+  width: 10rem;
+  height: 10rem;
+  background-color: #ffff4c;
+  border-radius: 50%;
+  border-bottom: 0.5rem solid rgb(255, 255, 255);
+  border-top: 0.5rem solid rgb(255, 253, 250);
+  border-right: 0.5rem solid rgba(197, 197, 190, 0.85);
+  border-left: 0.5rem solid rgba(197, 197, 190, 0.85);
+  box-shadow: 1px 1px 10px 2px #fdffa6;
+  animation: rotate 1s infinite;
+}
+
+.right {
+  height: 2rem;
+  width: 2rem;
+  background: white;
+  top: 2.5rem;
+  left: 2rem;
+  position: relative;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px 4px #b5b4aa;
+  animation: blink 1s infinite;
+  border: 0.00001rem solid rgba(128, 128, 128, 0.2);
+}
+
+.left {
+  height: 2rem;
+  width: 2rem;
+  background: white;
+  top: 0.5rem;
+  left: 6rem;
+  position: relative;
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px 4px #b5b4aa;
+  border: 0.00001rem solid rgba(128, 128, 128, 0.2);
+}
+@keyframes rotate {
+  0% {
+    transform: rotateZ(360deg);
+  }
+}
+
+@keyframes blink {
+  0% {
+    border-top: 1px solid gray;
+    background: linear-gradient(0deg, rgb(244, 244, 248) 50%, #ffff3b 50%);
+  }
+  4% {
+    background: linear-gradient(0deg, rgb(244, 244, 248) 20%, #ffff3b 80%);
+  }
+  5% {
+    background: #ffff4c;
+    border-bottom: 1px solid gray;
+  }
+  30% {
+    background-color: white;
+  }
+
+  50% {
+    background-color: white;
+  }
+  100% {
+    background-color: white;
+  }
+}

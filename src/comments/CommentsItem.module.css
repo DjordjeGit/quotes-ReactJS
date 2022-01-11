@@ -1,0 +1,75 @@
+.commentsItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0.5rem;
+  border-bottom: 0.001rem solid #b39e9e;
+  margin-bottom: 0.5rem;
+  transition: ease-in-out 0.2s;
+}
+
+.commentsItem h3 {
+  font-size: 1.3rem;
+  overflow-wrap: anywhere;
+  margin-left: 0.2rem;
+  font-weight: 400;
+}
+
+.commentsItem p {
+  font-size: 1.2rem;
+  background: #b7b7b7;
+  display: flex;
+  flex-direction: column;
+  height: 2rem;
+  padding: 0.1rem 1rem;
+  margin-right: 0.2rem;
+  border-radius: 0.6rem;
+  align-self: center;
+  font-weight: 600;
+  color: #323232;
+  box-shadow: 0px 0px 4px 0.2px;
+  cursor: url('../pic/dove.png'), pointer;
+}
+
+@media (min-width: 312px) and (max-width: 650px) {
+  .commentsItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0.5rem;
+    border-bottom: 0.001rem solid #dbdbdb;
+    margin-bottom: 0.5rem;
+    transition: ease-in-out 0.2s;
+  }
+
+  .commentsItem p {
+    font-size: 1rem;
+    background: #b7b7b7;
+    padding: 0.2rem 0.5rem;
+    height: 1.6rem;
+    margin-right: 0.2rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    color: #323232;
+    box-shadow: 0px 0px 4px 0.2px;
+  }
+  .commentsItem h3 {
+    font-size: 1.2rem;
+    overflow-wrap: anywhere;
+    margin-left: 0.2rem;
+    font-weight: 400;
+  }
+}
+
+@media (min-width: 551px) and (max-width: 650px) {
+  .commentsItem p {
+    font-size: 1rem;
+    background: #b7b7b7;
+    padding: 0.2rem 0.5rem;
+    height: 1.6rem;
+    margin-right: 0.2rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    color: #323232;
+    box-shadow: 0px 0px 4px 0.2px;
+    transition: ease-in-out 0.2s;
+  }
+}

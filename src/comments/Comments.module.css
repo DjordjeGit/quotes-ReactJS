@@ -1,0 +1,12 @@
+.comments {
+  max-width: 55rem;
+  width: 100%;
+}
+
+@media (min-width: 312px) and (max-width: 600px) {
+  .comments {
+    max-width: 40rem;
+    width: 100%;
+    transition: ease-in-out 0.2s;
+  }
+}
